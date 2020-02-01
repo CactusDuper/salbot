@@ -2,14 +2,14 @@ import logging
 import asyncio
 from discord.ext import commands
 
-#bot_log_id = 673121627742928897
-#bot_errors_id = 673121376009453570
-#bot_automation_id = 673128305699848193
+bot_log_id = 673121627742928897
+bot_errors_id = 673121376009453570
+bot_automation_id = 673128305699848193
 
 # test server channels
-bot_log_id = 673132254993842186
-bot_errors_id = 673132273909891082
-bot_automation_id = 673132236228395011
+#bot_log_id = 673132254993842186
+#bot_errors_id = 673132273909891082
+#bot_automation_id = 673132236228395011
 
 class CommandErrorHandler(commands.Cog):
     def __init__(self, bot, logger):
